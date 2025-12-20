@@ -52,7 +52,6 @@ export function FollowButton({
       setIsLoading(false)
     }
   }
-  }
 
   return (
     <Button onClick={handleToggleFollow} disabled={isLoading} variant={isFollowing ? "outline" : "default"} size="lg">
